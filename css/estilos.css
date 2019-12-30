@@ -22,9 +22,7 @@ valores */
 /* #portafolio */
 
 .objeto{
-   display: flex;
-  align-items: center;
-  justify-content: center;
+ display:flex;
 }
 
 /* gris oscuro = #1d252c */
