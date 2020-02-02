@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Hoja de vida</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
@@ -15,112 +16,173 @@
         }
       }
     </style> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
-      <div class="container">
-        <figure class="logo">
-          <img src="images/logo.png" height="50" alt="Logo" />
-        </figure>
-        <nav class="menu">
-          <ol>
-            <li>
-              <a class="link" href="#portafolio">Portafolio</a>
-            </li>
-            <li>
-              <a class="link" href="portafolio/grid/index.html">Experiencia</a>
-            </li>
-            <li>
-              <a class="link" href="#contacto">MÁS SOBRE MI</a>
-            </li>
-          </ol>
-        </nav>
-      </div>
+        <div class="container">
+            <figure class="logo">
+                <img src="images/logo.png" height="50" alt="Logo" />
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="portafolio/grid/index.html">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">MÁS SOBRE MI</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
     <section class="hero">
-      <div class="container">
-        <h1>
-          Hola! Soy <strong>David  Gonzalez</strong> <br/> Desarrollador  <strong>backend</strong> con <br> pasión por el <strong>desarrollo de apps</strong>
-        </h1>
-       <!--  <img class="hero-image" src="images/hero.png" width="200" height="300" alt="imagen principal del sitio">  -->
-      </div>
+        <div class="container">
+            <h1>
+                Hola! Soy <strong>David Gonzalez</strong> <br /> Desarrollador <strong>backend en laravel </strong> con <br> pasión por el <strong>desarrollo de apps</strong>
+            </h1>
+            <!--  <img class="hero-image" src="images/hero.png" width="200" height="300" alt="imagen principal del sitio">  -->
+        </div>
     </section>
     <section id="portafolio" class="portfolio">
-      <div class="container">
-        <h2>Portafolio (Proyectos Destacados)</h2>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Dinamo app(Entrenador de bolsillo)</h3>
-          <h6 class="project-course">ionic 3 / backend laravel</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a target="_blank" href="http://dinamoapp.com/">http://dinamoapp.com/</a> </small></p>
-          <p class="project-description">En DINAMO no vendemos membresías, ni alquilamos instalaciones,en DINAMO cambiamos y transformamos vidas.</p>
+        <div class="container">
+            <h2>Más sobre mi</h2>
         </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" width="250" src="http://dinamoapp.com/wp-content/uploads/2019/12/33.png" alt="prouyecto del curso de React Native">
-        </figure>
-      </article>
-       <article class="project">
+        <section class="contacto" id="contacto">
+            <div class="container">
+                <p>Me dedico actualmente al desarrollo de apps basadas en <strong>ionic 4 y Angular</strong> tengo conocimiento de <strong>laravel(vue.js)</strong> y bases de datos relacionales</p>
+                <p>Actualmente me encuentro aprendiendo firebase para el manejo de base de datos no relacionales(NoSql) y aprendiendo react,tambien tengo conocimiento en fronted (html,css) basados en frameworks como bootstrap</p>
+                <h3>Algunos proyectos fronted</h3>
+                <a href="https://sservicetk20.github.io/peliculasfront/login.html">peliculas</a>
+            </div>
+        </section>
+    </section>
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2>Experiencia laboral</h2>
+            <a href="https://www.linkedin.com/in/david-gonzalez-69097016a/">Perfil Linkedin</a>
+        </div>
+        <section class="contacto" id="contacto">
+            <div class="container">
+                <h3>DIGIT4L.CO</h3>
+                <p>Desarrollador de software</p>
+                <p>Nombre de la empresa digit4l.co Jornada completa</p>
+                <p>Fechas de empleo nov. de 2018 – ene. de 2020</p>
+                <p>Duración del empleo 1 año y 3 meses</p>
+                <p>Ubicación Bogotá D.C., Colombia</p>
+                <h4>Proyectos realizados en DIGIT4L.CO</h4>
+                <div class="project-details">
+                      <h3>Appsegurado</h3>
+                      <h6 class="project-course">ionic 4 / laravel</h6>
+                      <p class="project-date"><small><strong>Fecha:</strong> 01/11/2019</small></p>
+                      <p class="project-url"><small><strong>Puedes verlo en:</strong> https://appsegurado.com/ </small></p>
+                    </div>
+              <!--   <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Appsegurado</h3>
+                        <h6 class="project-course">ionic 4 / laravel</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 01/11/2019</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> https://appsegurado.com/ </small></p>
+                        <p class="project-description">Es una billetera virtual para el manejo de seguros</p>
+                        <figure class="project-imageContainer">
+                            <img class="project-image" width="500" src="https://appsegurado.com/images/appsegurado3.gif" alt="appsegurado">
+                        </figure>
+                    </div>
+                </article> -->
+                <h3>150 POR CIENTO</h3>
+                <p>Desarrollador web</p>
+                <p>Nombre de la empresa 150 POR CIENTO</p>
+                <p>Fechas de empleo ene. de 2018 – jul. de 2018</p>
+                <p>Duración del empleo 7 meses</p>
+                <p>Ubicación Bogotá D.C., Colombia</p>
+                <h3>PLATCOM</h3>
+                <p>Diseñador de páginas web</p>
+                <p>Nombre de la empresa PLATCOM</p>
+                <p>Fechas de empleo jun. de 2016 – jul. de 2017</p>
+                <p>Duración del empleo 1 año y 2 meses</p>
+                <p>Ubicación Bogotá D.C., Colombia</p>
+            </div>
+        </section>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <h2>Estudios profesionales</h2>
+            <h3>Uniagustiniana</h3>
+            <p>Tegnologia en desarrollo de software ...</p>
+            <p>Graduado 2019</p>
+            <h3>Politecnico Virtual</h3>
+            <p>Ingenieria en desarrollo de software ...</p>
+            <p>Estudiando - virtual</p>
+            <h3>Certificado platzi Angular</h3>
+            <a href="https://platzi.com/@grupodigit4l/curso/1340-angular-avanzado/diploma/detalle/">ANGULAR 6</a>
+            <h3>Certificado platzi Laravel</h3>
+            <a href="https://platzi.com/@grupodigit4l/curso/1467-curso-php-laravel/diploma/detalle/">LARAVEL</a>
+            <h3>Certificado platzi Desarrollo web</h3>
+            <a href="https://platzi.com/@grupodigit4l/curso/1350-html5-css3/diploma/detalle/">DESARROLLO WEB</a>
+        </div>
+    </section>
+    <div class="container">
+        <h2>Portafolio (Proyectos Freelance)</h2>
+        <article class="project">
+            <div class="project-details">
+                <h3 class="project-title">Dinamo app(Entrenador de bolsillo)</h3>
+                <h6 class="project-course">ionic 3 / backend laravel</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> <a target="_blank" href="https://youtu.be/wed-U_m4aZE">Presentacion de la app</a> </small></p>
+                <p class="project-description">Creacion de app usando ionic 3 y laravel como backend entrenador personal.</p>
+            </div>
+            <figure class="project-imageContainer">
+                <img class="project-image" width="250" src="http://dinamoapp.com/wp-content/uploads/2019/12/33.png" alt="prouyecto del curso de React Native">
+            </figure>
+        </article>
+        <!--   <article class="project">
           <div class="project-details">
             <h3 class="project-title">Appsegurado</h3>
             <h6 class="project-course">ionic 4 / laravel</h6>
             <p class="project-date"><small><strong>Fecha:</strong> 01/11/2019</small></p>
             <p class="project-url"><small><strong>Puedes verlo en:</strong> https://appsegurado.com/ </small></p>
-            <p class="project-description">fue diseñada por la sociedad ASESOR VIRTUAL S.A.S. para poder facilitarle a usted(en adelante el “Usuario”) el acceso a la más completa información de la página y servicios prestados a través de la misma </p>
+            <p class="project-description">Es una billetera virtual para el manejo de seguros</p>
           </div>
           <figure class="project-imageContainer">
             <img class="project-image" width="500" src="https://appsegurado.com/images/appsegurado3.gif" alt="appsegurado">
           </figure>
-        </article>
-      </div>
-      
-    </section>
-
+        </article> -->
+    </div>
     <div class="container">
-      <h2 class="event-list-title">Más sobre mi</h2>
+        <h2 class="event-list-title">Demos</h2>
     </div>
-
-    <section class="contacto" id="contacto">
-      <div class="container">
-        <p>Me dedico actualmente al desarrollo de apps basadas en <strong>ionic 4 y Angular</strong> tengo conocimiento de <strong>laravel(vue.js)</strong> y bases de datos relacionales</p>
-        <p>Actualmente me encuentro aprendiendo firebase para el manejo de base de datos no relacionales(NoSql) y aprendiendo react,tambien tengo conocimiento en fronted (html,css) basados en frameworks como bootstrap</p>
-      </div>
-    </section>
-
-     <div class="container">
-      <h2 class="event-list-title">Demos</h2>
-    </div>
-   
     <section id="eventos" class="event-list">
-      <div class="container">
-        <article class="event">
-         <figure class="event-imageContainer">
-            <div class="flexible-video">
-              <iframe class="youtube-video" width="560" height="215" src="https://www.youtube.com/embed/bQgVNwvt9zE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">Demo tienda virtual</h3>
-            <p class="event-description">Tienda virtual utilizando laravel para backend y vue.js como fronted.</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=bQgVNwvt9zE&feature=youtu.be" target="_blank">Ver Demo</a>
-          </div>
-        </article>
-
-      <article class="event">
-          <figure class="event-imageContainer">
-            <div class="flexible-video">
-              <iframe class="youtube-video" width="560" height="215" src="https://www.youtube.com/embed/wed-U_m4aZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">Demo DinamoApp</h3>
-            <p class="event-description">En DINAMO no vendemos membresías, ni alquilamos instalaciones,en DINAMO cambiamos y transformamos vidas.</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=wed-U_m4aZE&feature=youtu.be" target="_blank">Ver Demo</a>
-          </div>
-        </article> 
-<!--         <article class="event">
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <div class="flexible-video">
+                        <iframe class="youtube-video" width="560" height="215" src="https://www.youtube.com/embed/bQgVNwvt9zE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Demo tienda virtual</h3>
+                    <p class="event-description">Tienda virtual utilizando laravel para backend y vue.js como fronted.</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=bQgVNwvt9zE&feature=youtu.be" target="_blank">Ver Demo</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <div class="flexible-video">
+                        <iframe class="youtube-video" width="560" height="215" src="https://www.youtube.com/embed/wed-U_m4aZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Demo DinamoApp</h3>
+                    <p class="event-description">En DINAMO no vendemos membresías, ni alquilamos instalaciones,en DINAMO cambiamos y transformamos vidas.</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=wed-U_m4aZE&feature=youtu.be" target="_blank">Ver Demo</a>
+                </div>
+            </article>
+            <!--         <article class="event">
           <figure class="event-imageContainer">
             <video class="html-video" src="videos/f8.mp4" width="1280" height="720" controls></video>
           </figure>
@@ -130,7 +192,7 @@
             <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
           </div>
         </article> -->
-<!--         <article class="event">
+            <!--         <article class="event">
           <figure class="event-imageContainer">
             <img class="event-image" src="images/platzi-conf.jpg" width="500" />
           </figure>
@@ -140,9 +202,9 @@
             <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
           </div>
         </article> -->
-      </div>
+        </div>
     </section>
-<!--     <section id="contacto" class="contact">
+    <!--     <section id="contacto" class="contact">
       <div class="container">
         <form action="/suscripcion/" class="form-email">
           <h3>¿Creamos algo juntos?</h3>
@@ -158,45 +220,48 @@
       </div>
     </section> -->
     <footer class="footer">
-      <div class="container">
-        <div>
-          <p><strong>Desarrollo de aplicaciones móviles y plataformas webs<strong><!-- <img src="images/logo.png" width="80" alt="platzi"> --></p>
+        <div class="container">
+            <div>
+                <p><strong>Desarrollo de aplicaciones móviles y plataformas webs<strong>
+                            <!-- <img src="images/logo.png" width="80" alt="platzi"> -->
+                </p>
+            </div>
+            <div>
+                <p>
+                    Diseños davidg <a href="https://www.facebook.com/brandondavid.estradagonzales.5">@davidg</a>
+                </p>
+            </div>
         </div>
-        <div>
-          <p>
-            Diseños davidg <a href="https://www.facebook.com/brandondavid.estradagonzales.5">@davidg</a>
-          </p>
-        </div>
-      </div>
     </footer>
     <script>
-      // console.log('Hola mundo! es mi primera linea en JS');
-      const ipad = window.matchMedia('screen and (max-width: 767px)')
-      const menu = document.querySelector('.menu');
-      // console.log(menu);
-      const burgerButton = document.querySelector('#burger-menu');
-      // console.log(burgerButton);
+    // console.log('Hola mundo! es mi primera linea en JS');
+    const ipad = window.matchMedia('screen and (max-width: 767px)')
+    const menu = document.querySelector('.menu');
+    // console.log(menu);
+    const burgerButton = document.querySelector('#burger-menu');
+    // console.log(burgerButton);
 
 
-      ipad.addListener(validation)
+    ipad.addListener(validation)
 
-      function validation(event) {
+    function validation(event) {
         if (event.matches) {
-          burgerButton.addEventListener('click', hideShow)
+            burgerButton.addEventListener('click', hideShow)
         } else {
-          burgerButton.removeEventListener('click', hideShow)
+            burgerButton.removeEventListener('click', hideShow)
         }
-      }
-      validation(ipad);
+    }
+    validation(ipad);
 
 
-      function hideShow() {
+    function hideShow() {
         if (menu.classList.contains('is-active')) {
-          menu.classList.remove('is-active');
+            menu.classList.remove('is-active');
         } else {
-          menu.classList.add('is-active');
+            menu.classList.add('is-active');
         }
-      }
+    }
     </script>
-  </body>
+</body>
+
 </html>
