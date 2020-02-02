@@ -25,6 +25,17 @@ valores */
  display:flex;
 }
 
+.btn {
+    /* background-color: white; */
+    color: white;
+    text-decoration: none;
+    border: 1px dashed white;
+    padding: 1px 2px 2px 2px;
+    /* margin: 2px; */
+    /* padding: 1px; */
+    /* padding: 5px; */
+}
+
 /* gris oscuro = #1d252c */
 /* gris claro = #626262 */
 /* background gris = #1b2127 */
